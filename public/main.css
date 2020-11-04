@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100%;
+}
+
+#app-container {
+  width: 70%;
+  margin: auto;
+}
+
+.editor-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row-left {
+  margin-bottom: 10px;
+}
+
+.form-row-right {
+  float: right;
+  margin-bottom: 10px;
+}
+
+#todo-text {
+  width: 100%;
+}
