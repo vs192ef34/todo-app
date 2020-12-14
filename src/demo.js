@@ -79,7 +79,7 @@ function promiseBasicDemo() {
   // consuming code
   // promise
   const promiseExample = new Promise((resolve, reject) => {
-    // executor funciton === producing code
+    // executor function === producing code
     // resolve(value) -> all is good
     // reject(error)-> all is bad
     // state:
